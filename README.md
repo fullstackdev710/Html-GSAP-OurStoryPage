@@ -7,5 +7,5 @@ img/AhmadCigar-Image.png
 
 # Animation
 <video width="320" height="240" controls>
-  <source src="https://github.com/fullstackdev710/Html-GSAP-OurStoryPage/blob/main/readme_source/Smoke-Masters-Parallax-scroll.mp4" type="video/mp4">
+  <source src="https://github.com/fullstackdev710/Html-GSAP-OurStoryPage/blob/10888d7d12d6ae9b3e5c51c2aa0c4d982072d3ac/readme_source/Smoke-Masters-Parallax-scroll.mp4" type="video/mp4">
 </video>
