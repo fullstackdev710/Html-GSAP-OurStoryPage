@@ -1,0 +1,342 @@
+body {
+  margin: 0px;
+}
+h1 {
+  font-size: 60px;
+  font-family: Cormorant Garamond;
+  text-transform: uppercase;
+  color: #000000;
+}
+h2 {
+  font-size: 30px;
+  font-family: Cormorant Garamond;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 30px;
+}
+h3 {
+  font-size: 20px;
+  font-family: Lato;
+  color: #807e7e;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+hr {
+  margin: unset;
+  border: none;
+}
+img {
+  /* position: absolute; */
+}
+p {
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Lato;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.container {
+  max-width: 1440px;
+  margin: auto;
+}
+.d-block {
+  display: block;
+}
+.m-auto {
+  margin: auto !important;
+}
+.white-background {
+  background-color: #ffffff !important;
+}
+.grey-background {
+  background-color: #fafafa !important;
+}
+.text-align-center {
+  text-align: center;
+}
+.align-itme-center {
+  align-items: center;
+}
+.text-red {
+  color: #980b12;
+}
+.col-d-2 {
+  width: 50%;
+  /* flex: 1; */
+  position: relative;
+}
+.left-section {
+  padding-left: 140px;
+  position: relative;
+  height: 100%;
+}
+.section-number-line-container {
+  display: block;
+  font-size: 30px;
+  font-family: Lato;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -o-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=3);
+  position: absolute;
+  width: 76%;
+  left: calc(50px - 38%);
+  top: calc(50% - 40px);
+}
+.section-number-line {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  font-family: Lato;
+  width: 320px;
+  margin: auto;
+}
+.section-number-line span {
+  width: 60px;
+  color: #980b12;
+}
+.section-number-line hr {
+  width: 260px;
+  background-color: #980b12;
+  height: 1px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.our-story-section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+.yellow-bar {
+  position: absolute;
+  background-color: #f7c285;
+  height: 3px;
+  width: 40%;
+}
+p span {
+  display: block;
+  font-size: 14px;
+  color: #cecece;
+  line-height: 16px;
+}
+.our-story-header {
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 21px #00000012;
+  opacity: 1;
+  padding: 9px;
+}
+.our-story-header img.logo {
+  width: 112px;
+  height: 112px;
+  opacity: 1;
+}
+.our-story-section h2,
+.our-story-section h3,
+.our-story-section p,
+.cigar-div hr {
+  max-width: 480px;
+}
+.moe-photo-section .row {
+  height: 480px;
+}
+.moe-photo-section img {
+  position: absolute;
+}
+.moe-photo-bg {
+  width: 300px;
+  top: -240px;
+  left: calc(50% - 180px);
+}
+.moe-photo {
+  width: 300px;
+  top: -180px;
+  left: calc(50% - 120px);
+}
+.founding-bg {
+  position: absolute;
+  width: 360px;
+  left: 60px;
+}
+.founding-img {
+  position: absolute;
+  width: 300px;
+  top: 80px;
+  left: 150px;
+}
+.founding-info span {
+  padding-left: 50%;
+}
+.yellow-bar.founding {
+  top: 300px;
+  left: 200px;
+}
+.sharing-bg {
+  position: absolute;
+  width: 320px;
+}
+.sharing-img {
+  position: absolute;
+  width: 320px;
+  top: 40px;
+  right: -30%;
+}
+.yellow-bar.sharing {
+  top: 320px;
+  left: 320px;
+}
+.sharing-addition-img {
+  max-width: 420px;
+}
+.yellow-bar.sharing-addition {
+  top: 60px;
+  left: 200px;
+}
+.experience-smoke-red-bar {
+  width: 100%;
+  height: 120px;
+  background-color: #990d11;
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+}
+.experience-div img {
+  margin-left: 10%;
+}
+.experience-image-1 {
+  margin-top: 200px;
+}
+.experience-image-2 {
+  margin-bottom: 200px;
+}
+
+.cigar-div {
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 14px;
+  opacity: 1;
+  margin-bottom: 60px;
+  width: 80%;
+  padding: 40px 60px 0px 60px;
+}
+.cigar-div .left-section {
+  padding-left: 0px;
+}
+.cigar-div hr {
+  height: 2px;
+  background-color: #eaeaea;
+}
+.cigar-div img {
+  width: 100%;
+  max-width: 360px;
+}
+
+@media screen and (max-width: 600px) {
+  .col-d-2 {
+    width: 100%;
+  }
+  .row {
+  }
+  .left-section {
+    padding-left: 60px;
+  }
+  .section-number-line-container {
+    left: calc(30px - 38%);
+  }
+  .passion-journey-section .row {
+    flex-direction: column-reverse;
+  }
+  .passion-journey-img {
+    /* transform: none !important; */
+  }
+  .moe-photo-section .row {
+    flex-direction: column;
+    height: auto;
+  }
+  .founding-section .row {
+    flex-direction: column-reverse;
+  }
+  .sharing-section .row:first-child {
+    flex-direction: column;
+  }
+  .sharing-section .row:last-child {
+    flex-direction: column-reverse;
+  }
+  .experience-div.row {
+    flex-direction: column-reverse;
+  }
+  .cigar-div .row {
+    flex-direction: column;
+  }
+  .our-story-section {
+    padding: 60px 20px;
+  }
+  h1 {
+    font-size: 56px;
+  }
+  .moe-photo-section .left-section {
+    height: 400px;
+  }
+  .moe-photo-bg {
+    width: 260px;
+    top: 0px;
+    left: calc(50% - 120px);
+  }
+  .moe-photo {
+    width: 260px;
+    top: 40px;
+    left: calc(50% - 90px);
+  }
+  .moe-photo-section .row {
+  }
+  .founding-bg {
+    width: 280px;
+  }
+  .founding-img {
+    width: 240px;
+    top: 50px;
+  }
+  .sharing-bg {
+    width: 240px;
+  }
+  .sharing-img {
+    width: 240px;
+    top: 30px;
+    right: -60%;
+  }
+  .yellow-bar.sharing {
+    top: 240px;
+    left: 150px;
+  }
+  .founding-info span {
+    padding: 0px !important;
+    max-width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-top: -60px;
+  }
+  .sharing-addition-img {
+    display: block;
+    width: 100%;
+    margin: auto;
+  }
+  .experience-div .row .col-d-2 {
+    width: 50%;
+  }
+  .sharing-section .row:last-child .left-section {
+    padding-left: 0px;
+  }
+  .cigar-div {
+    padding: 40px 10px 0px 10px;
+  }
+}
