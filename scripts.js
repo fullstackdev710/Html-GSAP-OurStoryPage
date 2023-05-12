@@ -102,8 +102,8 @@
     .timeline({
       scrollTrigger: {
         trigger: ".youssef-cigar-div",
-        start: "center bottom",
-        end: "center center",
+        start: "30% bottom",
+        end: "top 30%",
         scrub: true,
       },
     })
@@ -118,8 +118,8 @@
     .timeline({
       scrollTrigger: {
         trigger: ".mustaph-cigar-div",
-        start: "center bottom",
-        end: "center center",
+        start: "30% bottom",
+        end: "top 30%",
         scrub: true,
       },
     })
@@ -134,8 +134,8 @@
     .timeline({
       scrollTrigger: {
         trigger: ".ahmad-cigar-div",
-        start: "center bottom",
-        end: "center center",
+        start: "30% bottom",
+        end: "top 30%",
         scrub: true,
       },
     })
