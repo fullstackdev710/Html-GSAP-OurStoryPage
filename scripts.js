@@ -24,7 +24,7 @@
     })
     .to(
       ".moe-photo-section .col-d-2:first-child",
-      { yPercent: -80, xPercent: -20, opacity: 0.3 },
+      { yPercent: -80, xPercent: -40, opacity: 0.3 },
       0
     );
 

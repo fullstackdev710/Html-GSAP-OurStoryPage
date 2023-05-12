@@ -1,3 +1,8 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
 body {
   margin: 0px;
 }
@@ -240,7 +245,60 @@ p span {
   width: 100%;
   max-width: 360px;
 }
-
+@media (max-width: 980px) and (min-width: 600px) {
+  .left-section {
+    padding-left: 60px;
+  }
+  .section-number-line-container {
+    left: calc(30px - 38%);
+  }
+  .our-story-section h1 {
+    margin-bottom: 60px;
+  }
+  .moe-photo-bg {
+    width: 280px;
+    left: calc(50% - 140px);
+  }
+  .moe-photo {
+    width: 280px;
+    left: calc(50% - 110px);
+  }
+  .founding-bg {
+    width: 270px;
+    left: 80px;
+  }
+  .founding-img {
+    width: 240px;
+    top: 40px;
+  }
+  .yellow-bar.founding {
+    top: 220px;
+  }
+  .sharing-bg {
+    width: calc(70% - 60px);
+    top: 20%;
+  }
+  .sharing-img {
+    width: calc(70% - 60px);
+    top: calc(20% + 40px);
+    right: -40%;
+  }
+  .yellow-bar.sharing {
+    top: 290px;
+    left: 135px;
+  }
+  .founding-info {
+    margin-top: -40px;
+  }
+  .founding-info span {
+    padding-left: 20%;
+    padding-right: 10%;
+  }
+  .sharing-addition-img {
+    width: 80%;
+    padding-left: 10%;
+  }
+}
 @media screen and (max-width: 600px) {
   .col-d-2 {
     width: 100%;
@@ -338,5 +396,10 @@ p span {
   }
   .cigar-div {
     padding: 40px 10px 0px 10px;
+    width: 100%;
+    margin-left: -10%;
+  }
+  .cigar-div .row {
+    margin: 0px !important;
   }
 }
